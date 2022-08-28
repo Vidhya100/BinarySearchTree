@@ -21,6 +21,11 @@
             binarySearch.Display();
             binarySearch.GetSize();
 
-        }
+            int element = 67;
+            bool result = binarySearch.IfExists(67, binarySearch);
+            Console.WriteLine(result);
+            Console.WriteLine("The given {0} is Present in BST",element);
+            
+         }
     }
 }
